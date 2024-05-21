@@ -1,0 +1,49 @@
+body {
+background-color: #414770;
+margin: 10px;
+}
+span{
+color: white;
+}
+.Media{
+display: flex;
+flex-direction: column;
+margin: 10px;
+}
+.cal{
+margin: 10px;
+}
+.resul{
+font-size: 20px;
+}
+.cal input{
+width: 102px;
+cursor: pointer;
+}
+.Media input{
+width: 200px;
+cursor: pointer;
+}
+.container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+
+button{
+border: 1px solid purple;
+background-color: azure;
+padding: 5px 20px;
+margin: 0 10px;
+cursor: pointer;
+font-size: 20px;
+}
+input:hover{
+transition: 0.5s;
+background-color: rgb(220, 122, 220);
+}
+.resul{
+font-weight: 600;
+}
