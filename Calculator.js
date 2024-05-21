@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import './index.css';
-function Calculadora(){
+function Calculator(){
 const [valor1, setValor1] = useState('');
 const [valor2, setValor2] = useState('');
 const [valor3, setValor3] = useState('');
@@ -107,4 +106,4 @@ value={inputString} onChange={handleInputChange} />
 );
 
 }
-export default Calculadora;
+export default Calculator;
